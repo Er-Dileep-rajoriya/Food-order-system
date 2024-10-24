@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Ordering System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <aside>
+        <div class="logo">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qn1ur6BrgkX7kkX6TnUzb7Jdc3B-futg4H3ZQoZXK8boP8rgmXuQc~bKXo~sWMXljnhKb-acOLzP4jhg~9AU0~HT3TQaF8ftOPcYM5P3Tiy5MmVOqFE3R7dHIq8RkQhRa7Tz0S7t0VLt8fhzGiG8C5DtYZTw7e7PuHKccPSNwGSKDdhPe4S5vUVHKQ6usOLBDzR1PXlddFE--izVCbORxp3tY4QYNozAvIsCdYE57FydlkqqyhhRBeBozPihUDIRbPdMLVXxHjOWIJwO4svQXgw2HAb4FvxsFjRJ-nURsOhczI484ts0rQch-zucr4LQs2gMhkCFBHEd9mF0UT9H6A__"
+            alt="logo"
+          />
+          <span>Your Restaurant Menu</span>
+          <small>Your Slogan</small>
+        </div>
+
+        <div class="bottom">
+          <p>Quick Links</p>
+          <ol>
+            <li>Home</li>
+            <li>Your Order</li>
+            <li>Wallet</li>
+            <li>Profile</li>
+            <li>Logout</li>
+          </ol>
+        </div>
+
+        <div class="bottom">
+          <p>More About Us</p>
+          <ol>
+            <li>Our blog</li>
+            <li>Upcomming Dishes</li>
+            <li>Our Story</li>
+            <li>Social Media Links</li>
+          </ol>
+        </div>
+      </aside>
+
+      <section>
+        <nav class="nav-bar">
+          <div class="search-div">
+            <img src="./assets/search_icon.png" alt="search" />
+            <input
+              placeholder="Search Food item"
+              type="search"
+              name="search"
+              id="search-bar"
+            />
+          </div>
+
+          <button class="btn" id="signup">Signup</button>
+          <button class="btn" id="login">Login</button>
+          <img
+            src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qn1ur6BrgkX7kkX6TnUzb7Jdc3B-futg4H3ZQoZXK8boP8rgmXuQc~bKXo~sWMXljnhKb-acOLzP4jhg~9AU0~HT3TQaF8ftOPcYM5P3Tiy5MmVOqFE3R7dHIq8RkQhRa7Tz0S7t0VLt8fhzGiG8C5DtYZTw7e7PuHKccPSNwGSKDdhPe4S5vUVHKQ6usOLBDzR1PXlddFE--izVCbORxp3tY4QYNozAvIsCdYE57FydlkqqyhhRBeBozPihUDIRbPdMLVXxHjOWIJwO4svQXgw2HAb4FvxsFjRJ-nURsOhczI484ts0rQch-zucr4LQs2gMhkCFBHEd9mF0UT9H6A__"
+            alt="logo"
+          />
+        </nav>
+
+        <main>
+          <section class="hero-section">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/bfaa/d74b/76ba1256d10f8af33fd5e08b7574087c?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=frpigQvSjavocA8u~XrRUYG0yX7pPqsoRgfg0bujc5O5G9I4klgICIsqgT0ilH6q46qhd0krl2cxm85E8wWEDaYAWqKoqWQYFrWeulxUL2NCm3gGTAcxmBSnWcPxQ8Jj6yteUU5XVpHNfIurHwOPA-iqIOWpjTL15r4R6dF1P2wmFrbZaPihYyWXOU7-D9W0MPzkHoOy266rsnJ8RniGyelPW8y4Tv1pnOi~sxXai5iMkIhkr3PhB9hk~bOBtqQyPREHtY~YsP~M1r7lUvtuD-Z49IAp~KeBtN4He~QCyDPMlOwtEWXcYBopKzAAvIir24MRG-gvflbLSG0RS~87CA__"
+              alt="hero"
+            />
+          </section>
+
+          <p id="menu">Menu</p>
+
+          <section class="menu-section" id="item-section">
+            <div class="item">
+              <div class="top">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OAHm5iMPTbRzSMj3YytyJRlnUjp4U2TX9DkJl3hdftDtdWgmldhSXN5868GJdTF25uSy5CHsDSs024ulu8-TxKwJG1vJrVWJyPWnXnYdMEOA8JVNtmR1XyvRBh-230o6trJXSo-HmDGCt3X2~4M658JMoZdn5D1PebQPDuA5aMij5vQag6ck0CnZc3aZEhK8H-rErgR-YrHyX3r8dTeMAQQiKwarg2rBQQ5lD2WGu~VGZMWjH3NeHJ0fspdHO7at5mJTmrSHkis-dkDOWWlqKSLlOseGr2V7nU1BEXxLoqCccIuV07O3hmT82Wdn8a5vjtICdlSBMxFc6noU7F-Zpg__"
+                  alt="item"
+                />
+              </div>
+
+              <div class="bottom">
+                <div class="item-detail">
+                  <p class="item-name">Burger</p>
+                  <small class="item-price">$5.99/-</small>
+                </div>
+                <div class="plus">
+                  <span>+</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </section>
+    </header>
+
+    <script src="script.js"></script>
+  </body>
+</html>
